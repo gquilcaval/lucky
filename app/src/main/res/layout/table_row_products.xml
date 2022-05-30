@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/tvProduct"
+        android:layout_width="0dp"
+        android:text="@string/tbl_col_product"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/tvCosto"
+        android:layout_width="0dp"
+        android:text="@string/tbl_col_costo"
+        android:textSize="13sp"
+        android:layout_weight="1"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        />
+    <EditText
+        android:id="@+id/tvPriceRevent"
+        android:layout_width="0dp"
+        android:text="@string/tbl_col_price_reventa"
+        android:layout_weight="1"
+        android:inputType="number"
+        android:textSize="13sp"
+        android:background="@android:color/transparent"
+        android:textAlignment="center"
+
+        />
+    <EditText
+        android:id="@+id/tvStock"
+        android:layout_width="0dp"
+        android:text="@string/tbl_col_stock"
+        android:layout_weight="1"
+        android:inputType="number"
+        android:textSize="13sp"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        />
+
+</TableRow>

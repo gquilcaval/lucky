@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pointOfSaleFragment">
+
+    <fragment
+        android:id="@+id/pointOfSaleFragment"
+        android:name="com.example.giancarlosquilca.ui.fragments.PointOfSaleFragment"
+        android:label="fragment_point_of_sale"
+        tools:layout="@layout/fragment_point_of_sale" >
+        <action
+            android:id="@+id/action_pointOfSaleFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+        <action
+            android:id="@+id/action_pointOfSaleFragment_to_visitFragment"
+            app:destination="@id/visitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.giancarlosquilca.ui.fragments.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/visitFragment"
+        android:name="com.example.giancarlosquilca.ui.fragments.VisitFragment"
+        android:label="fragment_visit"
+        tools:layout="@layout/fragment_visit" >
+        <action
+            android:id="@+id/action_visitFragment_to_reportProductsFragment"
+            app:destination="@id/reportProductsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reportProductsFragment"
+        android:name="com.example.giancarlosquilca.ui.fragments.ReportProductsFragment"
+        android:label="fragment_report_products"
+        tools:layout="@layout/fragment_report_products" >
+        <action
+            android:id="@+id/action_reportProductsFragment_to_pointOfSaleFragment"
+            app:destination="@id/pointOfSaleFragment" />
+    </fragment>
+
+</navigation>

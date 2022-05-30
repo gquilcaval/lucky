@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Giancarlos Quilca</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello Point of sale fragment</string>
+    <string name="name_point_sale">Metro Alfonso Ugarte</string>
+    <string name="name_direction">AV. ALFONSO UGARTE 740</string>
+    <string name="title_report_products">Reporte Precios</string>
+    <string name="tbl_col_product">Productos</string>
+    <string name="tbl_col_costo">P. Costo</string>
+    <string name="tbl_col_price_reventa">P. Rvta Mayor</string>
+    <string name="tbl_col_stock">Stock</string>
+    <string name="title_login">APP GESTOR</string>
+    <string name="subtitle_login">Xplora</string>
+    <string name="version_login">v.2.0.0</string>
+    <string name="edt_hint_user">Usuario</string>
+    <string name="edt_hint_password">Contraseña</string>
+</resources>
